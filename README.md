@@ -19,7 +19,10 @@ c.	Organization
 3.	Create GET REST api to get the same JSON document by ID and also another GET API to get list of ALL schools 
 4.	Create DELETE REST api to delete the school document by ID 
 5.	Write python code to POST documents to the REST API 
-6.	Create a Github repository with all the code and  share the link. 
+6.	Create a Github repository with all the code and  share the link.
+
+
+
 JSON : {
        "name": "School-A",
        "status": "old",
