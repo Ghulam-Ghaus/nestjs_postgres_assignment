@@ -10,7 +10,7 @@ dotenv.config();
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors();
-  app.setGlobalPrefix('nestjs_postgres');
+  app.setGlobalPrefix('school_app');
   const config = new DocumentBuilder()
     .setTitle('API Documentation')
     .setDescription('API descriptions and usage instructions')
